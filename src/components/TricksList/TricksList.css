@@ -1,5 +1,6 @@
 .tricks-list {
-    padding: 10px;
-    color: red;
-    border: dotted 2px red
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
 }

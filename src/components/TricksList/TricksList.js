@@ -19,7 +19,6 @@ console.log({tricks})
 
   return (
     <div className="tricks-list">
-        <h2>tricks list</h2>
         {trickCards}
     </div>
   )
