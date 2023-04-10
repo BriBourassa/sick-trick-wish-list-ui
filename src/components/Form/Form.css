@@ -1,0 +1,7 @@
+.form {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20%;
+    padding-right: 20%;
+}

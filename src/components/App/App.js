@@ -2,6 +2,7 @@ import React, { Component } from "react";
 // import { Route, Switch, Link } from 'react-router-dom';
 import "./App.css";
 import TricksList from "../TricksList/TricksList";
+import Form from "../Form/Form";
 
 class App extends Component {
   constructor() {
@@ -23,6 +24,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Sick Trick Wish List</h1>
+
+      <Form />
 
         <TricksList tricks={this.state.tricks} />
       </div>
